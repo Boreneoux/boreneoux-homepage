@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999];
+}
